@@ -21,6 +21,7 @@
 			<Item Name="01_BriefHistory.vi" Type="VI" URL="../Pages/01_BriefHistory.vi"/>
 			<Item Name="02_WhyVIMs.vi" Type="VI" URL="../Pages/02_WhyVIMs.vi"/>
 			<Item Name="BD_Template.vit" Type="VI" URL="../Pages/BD_Template.vit"/>
+			<Item Name="ExampleCalls.vi" Type="VI" URL="../Pages/ExampleCalls.vi"/>
 			<Item Name="WaitOnNotifier.vim" Type="VI" URL="../Pages/WaitOnNotifier.vim"/>
 		</Item>
 		<Item Name="Slide VIs" Type="Folder">

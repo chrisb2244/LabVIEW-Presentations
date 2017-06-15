@@ -1,4 +1,8 @@
 01 FP 01_BriefHistory.vi
 02 FP 02_WhyVIMs.vi
 03 FP WaitOnNotifier.vim
-05 BD DebugWrite.vim
+04 FP ExampleCalls.vi
+05 FP Malleable VIs Basics Lesson 1.vi
+06 FP Malleable VIs Basics Lesson 2.vi
+07 FP Malleable VIs Basics Lesson 3.vi
+08 BD DebugWrite.vim
