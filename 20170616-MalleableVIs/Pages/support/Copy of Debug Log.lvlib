@@ -10,7 +10,7 @@
 	<Item Name="Display.vi" Type="VI" URL="../Display.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Debug Write.vim" Type="VI" URL="../Debug Write.vim"/>
+	<Item Name="DebugWrite.vim" Type="VI" URL="../../DebugWrite.vim"/>
 	<Item Name="Debug Write Error Cluster.vi" Type="VI" URL="../Debug Write Error Cluster.vi"/>
 	<Item Name="Debug Write String.vi" Type="VI" URL="../Debug Write String.vi"/>
 	<Item Name="Read Log.vi" Type="VI" URL="../Read Log.vi"/>

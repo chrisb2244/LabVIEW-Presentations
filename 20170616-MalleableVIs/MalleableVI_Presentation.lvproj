@@ -19,6 +19,9 @@
 		</Item>
 		<Item Name="Slide Images" Type="Folder">
 			<Item Name="01_BriefHistory.vi" Type="VI" URL="../Pages/01_BriefHistory.vi"/>
+			<Item Name="02_WhyVIMs.vi" Type="VI" URL="../Pages/02_WhyVIMs.vi"/>
+			<Item Name="BD_Template.vit" Type="VI" URL="../Pages/BD_Template.vit"/>
+			<Item Name="WaitOnNotifier.vim" Type="VI" URL="../Pages/WaitOnNotifier.vim"/>
 		</Item>
 		<Item Name="Slide VIs" Type="Folder">
 			<Item Name="Copy of Debug Log.lvlib" Type="Library" URL="../Pages/support/Copy of Debug Log.lvlib"/>
@@ -27,11 +30,11 @@
 			<Item Name="Malleable VIs Basics Lesson 3.vi" Type="VI" URL="../Pages/Malleable VIs Basics Lesson 3.vi"/>
 			<Item Name="PolyVI.vi" Type="VI" URL="../Pages/PolyVI.vi"/>
 			<Item Name="TreeList.vi" Type="VI" URL="../Pages/TreeList.vi"/>
-			<Item Name="WaitOnNotifier.vim" Type="VI" URL="../Pages/WaitOnNotifier.vim"/>
 		</Item>
 		<Item Name="Template Images" Type="Folder"/>
 		<Item Name="BuildPageArray.vi" Type="VI" URL="../BuildPageArray.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Slide Config.txt" Type="Document" URL="../Pages/Slide Config.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
