@@ -1,0 +1,6 @@
+State Machine presentation
+
+Simple state machine
+Vending machine example
+JKI State Machine -> vending machine?
+comparison with case/event after main case as in N. Kirchner's video.
