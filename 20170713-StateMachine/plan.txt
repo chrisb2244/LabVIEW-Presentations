@@ -18,3 +18,5 @@ Notes on video:
 - "Actions only happen on transistions. A state is not an action"
 - TLB prime?
 - Ctrl-Shift-W shortcut for windows browser.
+- Outermost case structure on brain is to wake it - it is triggered only when the action case structure has an empty/idle incoming action.
+- Critical (safety) processes can be pushed to subprocesses.
