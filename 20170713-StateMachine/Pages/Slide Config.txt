@@ -1,1 +1,7 @@
-01 VI-Run 01-SimpleStateMachine.vi
+01 IMG hermitage.jpg
+02 VI-Run 01-SimpleStateMachine.vi
+03 VI-Run 02-StateMachineWithEvStr.vi
+04 VI-Run 03-Vending1.vi
+05 VI-Run 04-Vending2.vi
+06 VI-Run 05-Vending3_QSM.vi
+07 BD 06-VendingJKI.vi
