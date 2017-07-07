@@ -4,3 +4,17 @@ Simple state machine
 Vending machine example
 JKI State Machine -> vending machine?
 comparison with case/event after main case as in N. Kirchner's video.
+
+Notes on video:
+- Initial examples are all for QSM/QDMH. We need to consider a simple state machine first
+- States can be identified by enabling/disabling, resetting graphs, etc
+- Queuing blindly doesn't  consider state
+- The improved version in the video has Event Structure producer, and consumer with CS + CS->state CS -> dequeue 2nd queue (triggers)
+- Trigger queue goes to EvStr and to the 2nd CS group in the consumer
+- Action queue is dequeued by main CS in the consumer, the typical SM case structure
+- The internal CS (3rd level down) sometimes uses Queue Status/Peek to check next action/state.
+- Only the 'brain' section enqueues actions.
+- The goal is to separate actions and triggers. ("Stateful flow and control vs muscles")
+- "Actions only happen on transistions. A state is not an action"
+- TLB prime?
+- Ctrl-Shift-W shortcut for windows browser.
