@@ -13,9 +13,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Package" Type="Folder">
+			<Item Name="BuildPageArray.vi" Type="VI" URL="../BuildPageArray.vi"/>
 			<Item Name="GetMonitorResolution.vi" Type="VI" URL="../GetMonitorResolution.vi"/>
-			<Item Name="Page-XControl.xctl" Type="XControl" URL="../Page-XControl/Page-XControl.xctl"/>
-			<Item Name="Slide.lvclass" Type="LVClass" URL="../Slide/Slide.lvclass"/>
+			<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+			<Item Name="Page-XControl.xctl" Type="XControl" URL="../../Presentation/Page-XControl/Page-XControl.xctl"/>
+			<Item Name="Slide.lvclass" Type="LVClass" URL="../../Presentation/Slide/Slide.lvclass"/>
 		</Item>
 		<Item Name="Slide Images" Type="Folder">
 			<Item Name="01_BriefHistory.vi" Type="VI" URL="../Pages/01_BriefHistory.vi"/>
@@ -37,8 +39,6 @@
 			<Item Name="TreeList.vi" Type="VI" URL="../Pages/TreeList.vi"/>
 		</Item>
 		<Item Name="Template Images" Type="Folder"/>
-		<Item Name="BuildPageArray.vi" Type="VI" URL="../BuildPageArray.vi"/>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="presentation-notes.txt" Type="Document" URL="../../../../../Users/TaylorCouette/Dropbox/Documents/presentation-notes.txt"/>
 		<Item Name="Slide Config.txt" Type="Document" URL="../Pages/Slide Config.txt"/>
 		<Item Name="Dependencies" Type="Dependencies">
