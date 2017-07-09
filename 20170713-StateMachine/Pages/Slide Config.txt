@@ -1,4 +1,4 @@
-01 IMG hermitage.jpg
+01 FP HermitageVI.vi
 02 VI-Run 01-SimpleStateMachine.vi
 03 VI-Run 02-StateMachineWithEvStr.vi
 04 VI-Run 03-Vending1.vi

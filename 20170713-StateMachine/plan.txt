@@ -1,5 +1,7 @@
 State Machine presentation
 
+http://thecodelesscode.com/case/33
+
 Simple state machine
 Vending machine example
 JKI State Machine -> vending machine?
