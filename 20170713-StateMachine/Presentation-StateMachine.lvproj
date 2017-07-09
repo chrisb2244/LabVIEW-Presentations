@@ -19,6 +19,7 @@
 			<Item Name="05-Vending3_QSM.vi" Type="VI" URL="../Pages/05-Vending3_QSM.vi"/>
 			<Item Name="06-VendingJKI.vi" Type="VI" URL="../Pages/06-VendingJKI.vi"/>
 			<Item Name="hermitage.jpg" Type="Document" URL="../Pages/hermitage.jpg"/>
+			<Item Name="HermitageVI.vi" Type="VI" URL="../Pages/HermitageVI.vi"/>
 			<Item Name="Slide Config.txt" Type="Document" URL="../Pages/Slide Config.txt"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
