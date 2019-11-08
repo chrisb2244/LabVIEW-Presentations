@@ -1,0 +1,35 @@
+Slide 12: Start at workingLTC-rewriteAsMeasurement and demonstrate creation of Reserve and Release in a new Virtual Folder (Measurement Overrides)
+Place Reserve in the AC to replace the removed code. Demonstrate quick-drop shortcuts (can use Ctrl R to remove, I to insert, P to replace)
+
+Checkout p0
+Note the beginning of implemetation of SingleMeasurement. Note the problem with getting a Result out. Determine that the API is flawed and will need reworkings.
+
+Slide 15: Demonstrate that Create SubVI isn't ideal here because lots of inputs are required and they are all available from the class.
+Discuss the benefits/costs of wiring unchanged outputs straight through - readability vs nice looking, possibly performance costs.
+Use new VI from Static Dispatch and cut/paste to connect. Copy the unbundle. Reorder if time allows.
+
+Use the existing new version to show a possible implementation of the "Proc and Send" VI.
+
+Checkout p1
+Show the updated MeasureTemperature, RepeatToCheck andProcess and Send VIs. Note the MeasureTemperature is clearer, and that several class outputs are unavailable since they're unchanged - this makes the intentions cleaer.
+Update SingleMeasurement in Measurements.lvclass and LTC to remove the output Result object. Discuss how this is more consistent with the behaviour of StartMeasurement, and will reduce chance of programming error due to handling the output inconsistently.
+
+Checkout p2
+SettingsManager's dependency circle was broken between p1 and p2.
+Create a new VI for Data Access in Measurements (Write Distributor)
+Add the Queue, Result, cast to T-V Result and write accessors to the TestPanel
+Show the reduction in dependencies when removing the DataWrapper - this shows a bad (previous) design
+Point out bad design in loop - look for solutions (Event Structure might work better here)
+
+Implemented Start/Stop in terms of SingleMeasurement and time-delayed message
+Don't forget to release notifiers when stopping. Discuss error ignoring in the Start case.
+
+Checkout p3 (this has the Start/Stop implemented).
+Implement the updates to Actor Core in terms of Start and Stop Measurement. 
+
+Checkout p4
+Demonstrate basic functionality via TestPanel (Run the VI, Init gives message, Disconnect gives message, Poll works (sort of, since it doesn't work but behaves well)).
+Note problem in Measure (abort is possible). This is something to fix!
+
+Checkout WorkingThroughLTCRedesign
+Show implementation simplicity to test!

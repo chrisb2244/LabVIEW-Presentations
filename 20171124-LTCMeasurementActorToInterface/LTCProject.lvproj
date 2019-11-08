@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -11,36 +13,24 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Support" Type="Folder">
-			<Item Name="Measurement Processor.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Measurements/Processors/Measurement Processor.lvclass"/>
-			<Item Name="Measurement Result.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Measurements/Results/Measurement Result.lvclass"/>
-			<Item Name="Result Distributor.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Measurements/Result Distributors/Result Distributor.lvclass"/>
-			<Item Name="Time-Value Result.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Measurements/Results/Time-Value Result/Time-Value Result.lvclass"/>
+			<Item Name="Measurement Processor.lvclass" Type="LVClass" URL="../../../../../Users/TaylorCouette/Desktop/existing_repo/Chakraborty_TaylorCouette_ActorFramework/Measurements/Processors/Measurement Processor.lvclass"/>
+			<Item Name="Measurement Result.lvclass" Type="LVClass" URL="../../../../../Users/TaylorCouette/Desktop/existing_repo/Chakraborty_TaylorCouette_ActorFramework/Measurements/Results/Measurement Result.lvclass"/>
+			<Item Name="Queue Distributor.lvclass" Type="LVClass" URL="../../../../../Users/TaylorCouette/Desktop/existing_repo/Chakraborty_TaylorCouette_ActorFramework/Measurements/Result Distributors/Queue Distributor/Queue Distributor.lvclass"/>
+			<Item Name="Result Distributor.lvclass" Type="LVClass" URL="../../../../../Users/TaylorCouette/Desktop/existing_repo/Chakraborty_TaylorCouette_ActorFramework/Measurements/Result Distributors/Result Distributor.lvclass"/>
+			<Item Name="Time-Value Result.lvclass" Type="LVClass" URL="../../../../../Users/TaylorCouette/Desktop/existing_repo/Chakraborty_TaylorCouette_ActorFramework/Measurements/Results/Time-Value Result/Time-Value Result.lvclass"/>
 		</Item>
-		<Item Name="LTC2983_ActorFramework.lvlib" Type="Library" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Measurements/Measurement Actors/Temperature/LTC2983/LTC2983_ActorFramework.lvlib"/>
-		<Item Name="Measurements.lvlib" Type="Library" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Measurements/Measurement Actors/Measurements/Measurements.lvlib"/>
+		<Item Name="LTC2983_ActorFramework.lvlib" Type="Library" URL="../../../../../Users/TaylorCouette/Desktop/existing_repo/Chakraborty_TaylorCouette_ActorFramework/Measurements/Measurement Actors/Temperature/LTC2983/LTC2983_ActorFramework.lvlib"/>
+		<Item Name="Measurements.lvlib" Type="Library" URL="../../../../../Users/TaylorCouette/Desktop/existing_repo/Chakraborty_TaylorCouette_ActorFramework/Measurements/Measurement Actors/Measurements/Measurements.lvlib"/>
+		<Item Name="Test_LTC.lvclass" Type="LVClass" URL="../../../../../Users/TaylorCouette/Desktop/existing_repo/Chakraborty_TaylorCouette_ActorFramework/Measurements/Measurement Actors/Temperature/Test_LTC/Test_LTC.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="Append Digital Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDT.llb/Append Digital Samples.vi"/>
-				<Item Name="Append Waveforms.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Append Waveforms.vi"/>
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Batch Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Batch Msg/Batch Msg.lvclass"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="ChangeDecorationVisibility.vi" Type="VI" URL="/&lt;vilib&gt;/OIST/Cooling Unit Library/MiscVIs/ChangeDecorationVisibility.vi"/>
-				<Item Name="ChangeDecorationVisibility_Array.vi" Type="VI" URL="/&lt;vilib&gt;/OIST/Cooling Unit Library/MiscVIs/ChangeDecorationVisibility_Array.vi"/>
-				<Item Name="ChangeDecorationVisibility_PaneRef.vi" Type="VI" URL="/&lt;vilib&gt;/OIST/Cooling Unit Library/MiscVIs/ChangeDecorationVisibility_PaneRef.vi"/>
-				<Item Name="ChangeDecorationVisibility_Single.vi" Type="VI" URL="/&lt;vilib&gt;/OIST/Cooling Unit Library/MiscVIs/ChangeDecorationVisibility_Single.vi"/>
 				<Item Name="Check for Equality.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Check for Equality.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
-				<Item Name="Command Line String To Path.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Command Line String To Path.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Cooler.lvlib" Type="Library" URL="/&lt;vilib&gt;/OIST/Cooling Unit Library/Cooler.lvlib"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
-				<Item Name="DAQmx Control Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Control Task.vi"/>
 				<Item Name="DAQmx Create Channel (AI-Acceleration-4 Wire DC Voltage).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Acceleration-4 Wire DC Voltage).vi"/>
 				<Item Name="DAQmx Create Channel (AI-Acceleration-Accelerometer).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Acceleration-Accelerometer).vi"/>
 				<Item Name="DAQmx Create Channel (AI-Acceleration-Charge).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Acceleration-Charge).vi"/>
@@ -235,10 +225,6 @@
 				<Item Name="DecimateArrayAndDiscard_ClusterArray.vi" Type="VI" URL="/&lt;vilib&gt;/OIST/Basic Array Decimation/DecimateArrayAndDiscard_ClusterArray.vi"/>
 				<Item Name="DecimateArrayAndDiscard_Double.vi" Type="VI" URL="/&lt;vilib&gt;/OIST/Basic Array Decimation/DecimateArrayAndDiscard_Double.vi"/>
 				<Item Name="DecimateArrayAndDiscard_U32.vi" Type="VI" URL="/&lt;vilib&gt;/OIST/Basic Array Decimation/DecimateArrayAndDiscard_U32.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Digital Pattern Generator (Marching Values).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Marching Values).vi"/>
 				<Item Name="Digital Pattern Generator (Ramp).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Ramp).vi"/>
 				<Item Name="Digital Pattern Generator (Random).vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/Digital Pattern Generator (Random).vi"/>
@@ -267,141 +253,41 @@
 				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
 				<Item Name="DWDT Uncompress Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Uncompress Digital.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="Event Source.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Event Source Actor/Event Source/Event Source.lvlib"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LTC2983_Lib.lvlib" Type="Library" URL="/&lt;vilib&gt;/OIST/LTC2983 Library/LTC2983_Lib.lvlib"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
-				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
-				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="MessageQueue.lvlib" Type="Library" URL="/&lt;vilib&gt;/OIST/Message Queue/MessageQueue.lvlib"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number To Enum.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Number To Enum.vim"/>
-				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
-				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
-				<Item Name="Reply Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Reply Msg/Reply Msg.lvclass"/>
 				<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
-				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="SDW.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/SPI Digital Waveform/SDW.lvlib"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="SQLite.lvlib" Type="Library" URL="/&lt;vilib&gt;/drjdpowell/SQLite Library/SQLite.lvlib"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="SubpanelEnabledActor.lvlib" Type="Library" URL="/&lt;vilib&gt;/OIST/Subpanel Enabled Actor/SubpanelEnabledActor.lvlib"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="U32-Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/OIST/OIST-Reuse/U32-Buffer.vi"/>
-				<Item Name="UNIXPathStringToPath.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/UNIXPathStringToPath.vi"/>
-				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="VISA_WriteAndWait.vi" Type="VI" URL="/&lt;vilib&gt;/OIST/Cooling Unit Library/MiscVIs/VISA_WriteAndWait.vi"/>
-				<Item Name="WaitWithError.vi" Type="VI" URL="/&lt;vilib&gt;/OIST/Cooling Unit Library/MiscVIs/WaitWithError.vi"/>
-				<Item Name="Waveform to XY Pairs.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform to XY Pairs.vi"/>
-				<Item Name="WDT Append Waveforms CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms CDB.vi"/>
-				<Item Name="WDT Append Waveforms CXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms CXT.vi"/>
-				<Item Name="WDT Append Waveforms DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms DBL.vi"/>
-				<Item Name="WDT Append Waveforms EXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms EXT.vi"/>
-				<Item Name="WDT Append Waveforms I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I16.vi"/>
-				<Item Name="WDT Append Waveforms I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I32.vi"/>
-				<Item Name="WDT Append Waveforms I64.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I64.vi"/>
-				<Item Name="WDT Waveform to XY Pairs CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs CDB.vi"/>
-				<Item Name="WDT Waveform to XY Pairs CSG.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs CSG.vi"/>
-				<Item Name="WDT Waveform to XY Pairs CXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs CXT.vi"/>
-				<Item Name="WDT Waveform to XY Pairs DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs DBL.vi"/>
-				<Item Name="WDT Waveform to XY Pairs EXT.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs EXT.vi"/>
-				<Item Name="WDT Waveform to XY Pairs I8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs I8.vi"/>
-				<Item Name="WDT Waveform to XY Pairs I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs I16.vi"/>
-				<Item Name="WDT Waveform to XY Pairs I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs I32.vi"/>
-				<Item Name="WDT Waveform to XY Pairs I64.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs I64.vi"/>
-				<Item Name="WDT Waveform to XY Pairs SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs SGL.vi"/>
-				<Item Name="WDT Waveform to XY Pairs U8.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs U8.vi"/>
-				<Item Name="WDT Waveform to XY Pairs U16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs U16.vi"/>
-				<Item Name="WDT Waveform to XY Pairs U32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs U32.vi"/>
-				<Item Name="WDT Waveform to XY Pairs U64.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs U64.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Add Setting Node Msg.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/Controller/Controller Messages/Add Setting Node Msg/Add Setting Node Msg.lvclass"/>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
-			<Item Name="AllSettingsCluster.ctl" Type="VI" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/SettingsManager/AllSettingsCluster.ctl"/>
-			<Item Name="Controller.lvlib" Type="Library" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/Controller/Controller.lvlib"/>
-			<Item Name="CoolingUnitActor.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/CoolingUnitAF/CoolingUnitActor.lvclass"/>
-			<Item Name="CylinderDisplay.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/UI/SharedControls/CylinderDisplay/CylinderDisplay.lvclass"/>
-			<Item Name="DAQmxMeasurement.lvlib" Type="Library" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Measurements/Measurement Actors/DAQmxAcquisition/AnalogueMeasurement/DAQmxMeasurement.lvlib"/>
-			<Item Name="DataLogging_SQL.lvlib" Type="Library" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/Logging/SQLiteLogger/DataLogging_SQL.lvlib"/>
-			<Item Name="DataWrapper.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/DataTypes/DataWrapper/DataWrapper.lvclass"/>
-			<Item Name="DataWrapperReceiver.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/DataTypes/DataWrapper/DataWrapperReceiver_Msg/DataWrapperReceiver.lvclass"/>
-			<Item Name="Directory.vi" Type="VI" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Support/Directory.vi"/>
-			<Item Name="DistributeDataObject Msg.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/Controller/Controller Messages/DistributeDataObject Msg/DistributeDataObject Msg.lvclass"/>
-			<Item Name="Error Msg.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/ErrorLogger/Messages/Error Msg/Error Msg.lvclass"/>
-			<Item Name="ErrorHandler.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/ErrorLogger/ErrorHandler.lvclass"/>
-			<Item Name="ErrorObject.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/ErrorLogger/ErrorObject/ErrorObject.lvclass"/>
-			<Item Name="EventManager.lvlib" Type="Library" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/EventManager/EventManager.lvlib"/>
-			<Item Name="FlipMCLSymbol.vi" Type="VI" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Support/FlipMCLSymbol.vi"/>
-			<Item Name="Get Window Handle.vi" Type="VI" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Support/Transparencies/Windows GUI Tools/Get Window Handle.vi"/>
-			<Item Name="GetCircularArraySubset.vi" Type="VI" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Support/GetCircularArraySubset.vi"/>
-			<Item Name="GetMCLWithSelectedSymbol.vi" Type="VI" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Support/GetMCLWithSelectedSymbol.vi"/>
-			<Item Name="GetSettingsEnqueuer Msg.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/Controller/Controller Messages/GetSettingsEnqueuer Msg/GetSettingsEnqueuer Msg.lvclass"/>
-			<Item Name="IgnoreErrors.vi" Type="VI" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Support/IgnoreErrors.vi"/>
-			<Item Name="LaunchDaq.vi" Type="VI" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Support/LaunchDaq.vi"/>
+			<Item Name="Directory.vi" Type="VI" URL="../../../../../Users/TaylorCouette/Desktop/existing_repo/Chakraborty_TaylorCouette_ActorFramework/Support/Directory.vi"/>
+			<Item Name="IgnoreErrors.vi" Type="VI" URL="../../../../../Users/TaylorCouette/Desktop/existing_repo/Chakraborty_TaylorCouette_ActorFramework/Support/IgnoreErrors.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="MainUI.lvlib" Type="Library" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/UI/MainUI/MainUI.lvlib"/>
-			<Item Name="MenuChoice.ctl" Type="VI" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Launcher/MenuChoice.ctl"/>
-			<Item Name="MoveToOrigin.vi" Type="VI" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Support/MoveToOrigin.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PreviousDataUI.lvlib" Type="Library" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/UI/PreviousDataUI/PreviousDataUI.lvlib"/>
-			<Item Name="Set Window Color to Transparent.vi" Type="VI" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Support/Transparencies/Windows GUI Tools/Set Window Color to Transparent.vi"/>
-			<Item Name="SettingsManager.lvlib" Type="Library" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/SettingsManager/SettingsManager.lvlib"/>
-			<Item Name="SimulatedData.lvlib" Type="Library" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Measurements/Measurement Actors/SimulatedData/SimulatedData.lvlib"/>
-			<Item Name="StartConnectButton Msg.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/CoolingUnitAF/CoolingUnitActor Messages/StartConnectButton Msg/StartConnectButton Msg.lvclass"/>
-			<Item Name="StartCoolerUnit Msg.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/CoolingUnitAF/CoolingUnitActor Messages/StartCoolerUnit Msg/StartCoolerUnit Msg.lvclass"/>
+			<Item Name="SettingsManager.lvlib" Type="Library" URL="../../../../../Users/TaylorCouette/Desktop/existing_repo/Chakraborty_TaylorCouette_ActorFramework/Actors/SettingsManager/SettingsManager.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="TC_Graph.lvlib" Type="Library" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/UI/SharedControls/TC_Graph/TC_Graph.lvlib"/>
-			<Item Name="TemperatureMeasurement.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Measurements/Measurement Actors/Temperature/TemperatureMeasurement.lvclass"/>
-			<Item Name="UI.lvlib" Type="Library" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/UI/UI.lvlib"/>
-			<Item Name="UnavailableModule.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/UI/SharedControls/UnavailableModule/UnavailableModule.lvclass"/>
-			<Item Name="UpdateState Msg.lvclass" Type="LVClass" URL="../../../../Users/Christian/Desktop/TC_AF/Chakraborty_TaylorCouette_ActorFramework/Actors/CoolingUnitAF/CoolingUnitActor Messages/UpdateState Msg/UpdateState Msg.lvclass"/>
-			<Item Name="user32.dll" Type="Document" URL="user32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="TemperatureMeasurement.lvclass" Type="LVClass" URL="../../../../../Users/TaylorCouette/Desktop/existing_repo/Chakraborty_TaylorCouette_ActorFramework/Measurements/Measurement Actors/Temperature/TemperatureMeasurement.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
